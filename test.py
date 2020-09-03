@@ -1,7 +1,6 @@
-def fib(n):
-    a, b = 0.1
-    while a < n:
-        print(a, end = ' ')
-        a, b = b, a+b
-        print()
-fib(1000)
+data = [5, 4, 5, 6, 7, 9, 39, 25, 1, 2, 4, 15]
+import numpy as np
+from scipy.stats import describe
+np.mean(data)
+np.median(data)
+describe(data)
