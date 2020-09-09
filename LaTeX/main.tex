@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+\usepackage[spanish]{babel}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+
+
+\title{Definición de sistemas digitales}								% Title
+\author{Tomas Israel Jasso Ramírez}			% Author
+\date{\today}								% Date
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\theauthor}
+\lhead{\thetitle}
+\cfoot{\thepage}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{titlepage}
+
+%LOGOS
+\begin{tabular}{p{0.62\textwidth} p{0.75\textwidth}}
+      \includegraphics[width=0.25\textwidth]{UANL.jpeg} & \includegraphics[trim= 0 110 0 0 ,clip,width=0.35\textwidth]{FIME.png}
+\end{tabular}
+
+\begin{center}
+%UANL-FIME
+\par \vspace{1cm}
+{\Large\textbf{Universidad Autonóma de Nuevo León \\*[0.2cm] Facultad de Ingeniería Mecánica y Eléctrica}}
+
+\par\vspace{1.5cm}{
+\LARGE\textbf{\#Electrónica Digital}}
+
+\par\vspace{0.7cm}{
+\Large\textbf{\#Definición de sistemas digitales}}
+
+\par\vspace{2cm}{
+\large{*Nombre o nombres de los integrantes junto a su matricula}}
+
+\par\vspace{.5cm}{
+\large\textbf{\#Tomas Israel Jasso Ramírez \hspace{3.5cm} \#1943530}}
+
+\par\vspace{1cm}{
+\large\textbf{\#Jesús Daniel Garza Camarena}}
+
+\par\vspace{1cm}{
+\large\textbf{Semestre Agosto-Enero 2020-2021}}
+
+\begin{flushright}
+\par\vspace{1cm}{
+\large\textbf{\#Jueves V1-V3}}
+\end{flushright}
+
+\end{center}
+
+\par\vspace{1cm}{
+\large\textbf{San Nicolás de los Garza, N.L. \hspace{3cm} \#07/09/2020}}
+
+
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\tableofcontents
+%\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Actividad Formativa N°2}
+\vspace{1cm}
+{\large \textbf{Objetivo:}} Conocer y entender el contexto de la materia con la que se trabajará
+
+\vspace{.35cm}
+
+\large\textbf{1. Definición Sistemas Digitales} \\
+\normalsize A \textbf{digital system} is a combination of devices designed to manipulate logical information or physical quantities that are represented in digital form; that is, the quantities can take on only discrete values." \cite{tocci}
+
+\vspace{.35cm}
+
+\large\textbf{2. Definición Sistemas Digitales} \\
+\normalsize "Digital systems use discrete quantities to represent information. Discrete means distinct or separated as opposed to continous or connected" \cite{godse} 
+
+\vspace{.35cm}
+
+\large\textbf{3. Definición Diseño Combinacional} \\
+\normalsize "Un sistema combinacional es aquel donde los valores de salida dependen únicamente de las combinaciones de entrada. En este sistema el número de entradas puede ser mayor, menor o igual al número de salidas." \cite{garza}
+
+\vspace{.35cm}
+
+\large\textbf{4. Definición Diseño Secuencial} \\
+\normalsize "Un circuito secuencial se especifica con una sucesión temporal de entradas, salidas y estados internos. [...] El cambio de estado interno se da cuando hay un cambio en las variables de entrada." \cite{mano}
+
+\vspace{.35cm}
+
+\large \textbf{Conclusión} \\
+\normalsize Los temas de electrónica digital se manejan en términos discretos para sus distintos diseños y tienen manipulaciones lógicas que normalmente se trabajan a través de relojes.
+
+
+
+
+\newpage
+\bibliographystyle{ieeetr}
+\bibliography{biblist}
+
+\end{document}
