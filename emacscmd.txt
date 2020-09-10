@@ -1,0 +1,5 @@
+set mark	C-space   C-@
+Cut		C-w
+Copy		M-w	  Esc-w
+Paste		Cy
+Paste last	M-i	  Esc-y
