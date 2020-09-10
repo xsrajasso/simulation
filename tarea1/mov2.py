@@ -1,5 +1,8 @@
 from random import random
 from math import fabs
+from distance import ed_orig, md_orig
+from caminata import caminata
+
 pos = 0
 mayor = 0
 dur = 100
