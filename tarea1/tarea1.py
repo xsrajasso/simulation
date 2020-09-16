@@ -13,9 +13,9 @@ def experimento(largo, dim):
             return True
     return False
 
-dim = 5
-largo = 100
-total = 1000
+dim = 8
+largo = 1000
+total = 10000
 regresos = 0
 for replica in range(total):
     regresos += experimento(largo, dim)
